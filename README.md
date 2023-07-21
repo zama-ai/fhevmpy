@@ -7,10 +7,11 @@ Use Python3.10 or earlier:
 ```
 python3.10 -m venv venv
 . ./venv/bin/activate
+
 pip install -r requirements.txt
 ```
 
-For now we also need to installed the fhEVM cli:
+For now we also need to installed the fhEVM cli (which in turn requires [Rust](https://www.rust-lang.org/) to be installed):
 
 ```
 git clone https://github.com/zama-ai/fhevm-tfhe-cli
